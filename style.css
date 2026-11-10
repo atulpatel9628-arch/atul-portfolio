@@ -375,3 +375,38 @@ footer {
     color: #c8bce9;
     line-height: 1.6;
 }
+
+/* FINAL WEBSITE POLISH */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.navbar a {
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ed38ed;
+}
+
+.btn {
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px #7938d955;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    color: #c8bce9;
+    border-top: 1px solid #7545d5;
+    margin-top: 40px;
+}
