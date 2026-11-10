@@ -261,3 +261,50 @@ footer {
         max-width: 100%;
     }
 }
+
+
+/* PROFESSIONAL HERO UPGRADE */
+
+.gradient-text {
+    background: linear-gradient(
+        90deg, #ed38ed, #ffad42, #568aff
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 4s linear infinite;
+}
+
+@keyframes gradientMove {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.profile {
+    padding: 25px;
+    border: 1px solid #7938d9;
+    border-radius: 25px;
+    background: #ffffff0b;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 35px #7436da30;
+}
+
+.profile p {
+    color: #c8bce9;
+    margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+    .hero-buttons {
+        justify-content: center;
+    }
+}
+
