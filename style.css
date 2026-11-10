@@ -308,3 +308,36 @@ footer {
     }
 }
 
+/* PROJECTS GALLERY UPGRADE */
+
+#projects .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+#projects .card {
+    background: linear-gradient(145deg, #171039, #25144a);
+    border: 1px solid #7545d5;
+    border-radius: 18px;
+    padding: 25px;
+    transition: 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px #7938d955;
+    border-color: #ed38ed;
+}
+
+#projects .card h3 {
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+
+#projects .card p {
+    color: #c8bce9;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
