@@ -410,3 +410,16 @@ footer {
     border-top: 1px solid #7545d5;
     margin-top: 40px;
 }
+/* PROFILE PHOTO */
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #ed38ed;
+    box-shadow: 0 0 30px #a020f0;
+    display: block;
+    margin: 0 auto 20px;
+}
